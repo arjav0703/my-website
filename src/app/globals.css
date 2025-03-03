@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @import "tailwindcss";
 
 @font-face {
@@ -7,27 +7,27 @@
   font-weight: normal;
   font-style: normal;
 }
-
-h1{
-  font-family: 'Tars-mono';
-  
+@font-face {
+  font-family: 'Space-mono';
+  src: url("/fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
- 
-p{
+
+h1 {
+  font-family: 'Tars-mono';
+}
+
+p {
   font-family: 'Space-Mono';
 }
 
-
-@media (max-width: 1024px) {
-  .content {
-    padding-right: 10rem;
-    padding-left: 10rem;
-  }
-}
-
 @media (max-width: 768px) {
-  .content {
-    padding-right: 1rem;
-    padding-left: 1rem;
+  h1 {
+    font-size: 1.5rem; /* Adjust the size as needed */
+  }
+
+  p {
+    font-size: 1rem; /* Adjust the size as needed */
   }
 }
