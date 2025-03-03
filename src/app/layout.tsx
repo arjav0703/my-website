@@ -4,7 +4,7 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "Arjav Jain",
   description: "Get to know about Arjav Jain.",
 };
 
@@ -16,7 +16,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        
       >
         {children}
       </body>
