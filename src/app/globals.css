@@ -32,3 +32,7 @@ p {
   }
 }
 
+::selection {
+  background-color: #f4ddb0;
+  color: #3a3a3a;
+}
