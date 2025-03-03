@@ -13,6 +13,9 @@ export default function contact() {
             <div>
                 <h1 className="text-xl sm:text-3xl">CONTACT ME</h1>
             </div>
+            <div className="py-5">
+                <p className="text-l sm:text-xl">You can reach me at <a href="mailto:arjavjain0703@gmail.com" className="hover:underline">arjavjain0703@gmail.com</a> or <a href="mailto:arjav@hackclub.app" className="hover:underline">arjav@hackclub.app</a></p>
+            </div>
   
         </div>
         <div className="flex justify-center bg-amber-50 py-6 ">
