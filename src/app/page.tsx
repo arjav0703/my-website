@@ -6,12 +6,12 @@ export default function Home() {
     <div className="py-20 flex flex-col items-center bg-amber-50 h-screen px-18">
       
       <div>
-        <h1 className="text-6xl">ARJAV JAIN</h1>
+        <h1 className="text-5xl">ARJAV JAIN</h1>
         <p className="py-10 text-xl ">
-        i am a 14 year old from Vidisha. i really dont't have a fav language and i love to try almost everything from 3D modelling to functional programming and linux.
+        i am a 14 year old from Vidisha. i really dont't have a fav language and i love to try almost everything from 3D modelling to functional programming, linux and tons of other cool stuff.
         </p>
         
-        <p>i am the co-leader at<a href="https://vidisha.hackclub.com" className=" px-1 hover:bg-amber-500 hover:underline">[hackclub vidisha]</a> </p>
+        <p>i am a<a href='https://hackclub.com' className=" px-1 hover:bg-amber-500 hover:underline">[Hackclubber]</a>and the co-leader at<a href="https://vidisha.hackclub.com" className=" px-1 hover:bg-amber-500 hover:underline">[hackclub vidisha]</a>.</p>
         
 
       </div>
