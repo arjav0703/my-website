@@ -22,15 +22,6 @@ p, nav {
   font-family: 'Space-Mono';
 }
 
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2rem; /* Adjust the size as needed */
-  }
-
-  p {
-    font-size: 1rem; /* Adjust the size as needed */
-  }
-}
 
 ::selection {
   background-color: #ffda8f;

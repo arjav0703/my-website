@@ -11,12 +11,12 @@ export default function contact() {
         <div className="py-10 flex flex-col items-center h-screen px-8 sm:px-48">
 
             <div>
-                <h1 className="text-5xl">ARJAV JAIN</h1>
+                <h1 className="text-xl sm:text-3xl">CONTACT ME</h1>
             </div>
   
         </div>
         <div className="flex justify-center bg-amber-50 py-6 ">
-          <footer>Made with love by<a href="https://github.com/arjav0703" 
+          <footer className="text-xs">Made with love by<a href="https://github.com/arjav0703" 
               className=" px-1 hover:bg-amber-500 hover:underline ">
               Arjav</a>. Arch btw
           </footer>
