@@ -33,6 +33,9 @@ p {
 }
 
 ::selection {
-  background-color: #f4ddb0;
-  color: #3a3a3a;
+  background-color: #ffda8f;
+}
+
+* {
+  color: #28303c;
 }
