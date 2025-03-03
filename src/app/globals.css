@@ -1,12 +1,17 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Tars-Mono';
-  src: url("/TarsMonoSmooth.ttf");
+  font-family: 'Tars-mono';
+  src: url("/fonts/TarsMonoSmooth.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
+
 *{
-  font-family: 'Tars-Mono';
+  font-family: 'Tars-mono';
+  
 }
+
 
 
 @media (max-width: 1024px) {

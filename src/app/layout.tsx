@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
-import { Monoton} from "next/font/google";
+//import { Monoton} from "next/font/google";
 import "./globals.css";
-
-const monoton = Monoton({
-  variable: "--font-monoton",
-  weight: "400"
-});
-
 
 
 export const metadata: Metadata = {
@@ -22,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${monoton.variable} ${monoton.variable} antialiased`}
+        
       >
         {children}
       </body>
