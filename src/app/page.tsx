@@ -2,9 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-row items-center justify-center min-h-screen py-2">
-      <h1 className="font-monoton">Home</h1>
-      <h1 className="">Home</h1>
+    <div className="flex flex-col items-center justify-center py-20">
+      <h1 className="text-7xl">Arjav Jain</h1>
       
     </div>
   );
