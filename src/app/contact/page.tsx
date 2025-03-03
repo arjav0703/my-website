@@ -14,7 +14,8 @@ export default function contact() {
                 <h1 className="text-xl sm:text-3xl">CONTACT ME</h1>
             </div>
             <div className="py-5">
-                <p className="text-l sm:text-xl">You can reach me at <a href="mailto:arjavjain0703@gmail.com" className="hover:underline">arjavjain0703@gmail.com</a> or <a href="mailto:arjav@hackclub.app" className="hover:underline">arjav@hackclub.app</a></p>
+                <p className="text-l sm:text-xl">You can email me at</p>
+                <p className="text-l sm:text-xl"> <a href="mailto:arjavjain0703@gmail.com" className="hover:underline hover:bg-amber-100">arjavjain0703@gmail.com</a> or <a href="mailto:arjav@hackclub.app" className="hover:underline hover:bg-amber-100">arjav@hackclub.app</a></p>
             </div>
   
         </div>
