@@ -5,7 +5,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Arjav Jain",
-  description: "Get to know about Arjav Jain.",
+  description: "Arjav is a 14 year old from Vidisha. He is a photographer, ethical hacker, and coder.",
 };
 
 export default function RootLayout({
