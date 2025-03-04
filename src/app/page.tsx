@@ -13,7 +13,7 @@ export default function Home() {
       <div className="py-8 flex flex-col items-center h-screen px-8 sm:px-48 sm:py-18">
         
         <div>
-          <h1 className="sm:text-5xl text-3xl">ARJAV JAIN</h1>
+          <h1 className="sm:text-5xl text-3xl bg-gruv-accent w-fit px-2 text-black">ARJAV JAIN</h1>
 
           <div className="flex flex-row py-1">
             <p className="underline mx-2">photograper</p> 
