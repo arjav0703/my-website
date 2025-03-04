@@ -15,6 +15,9 @@ export default function contact() {
             <div>
                 <h1 className="text-xl sm:text-3xl">GALLERY</h1>
             </div>
+            <div>
+                <img ></img>
+            </div>
             
   
         </div>
