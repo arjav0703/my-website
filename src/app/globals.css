@@ -2,9 +2,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-gruv-red: #cc241d;
+  --color-gruv-selection: #8ec07c;
   --color-gruv-bg: #fbf1c7;
-  --color-gruv-text: ##3c3836;
+  --color-gruv-text: #3c3836;
 }
 
 @font-face {
@@ -29,7 +29,5 @@ p, nav {
 }
 
 
-::selection {
-  background-color: #ffda8f;
-}
+
 
