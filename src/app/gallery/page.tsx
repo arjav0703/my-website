@@ -15,20 +15,19 @@ export default function contact() {
             <div>
                 <h1 className="text-xl sm:text-3xl">GALLERY</h1>
             </div>
-            <div className='sm:grid sm:grid-cols-4 sm:grid-rows-4 sm:gap-5 sm:w-screen sm:px-10 py-10'>
-                <img src='/images/car.webp'></img>
-                <img src='/images/ole.webp'></img>
-                <img src='/images/apple.webp'></img>
-                <img src='/images/oldman.webp'></img>
-                <img src='/images/trash.webp'></img>
-                <img src='/images/boat2.webp'></img>
-                <img src='/images/light.webp'></img>
-                <img src='/images/window.webp'></img>
-                <img src='/images/tree.webp'></img>
-                <img src='/images/IMG.webp'></img>
-                <img src='/images/lens.webp'></img>
-                <img src='/images/lego.webp'></img>
-                <img src='/images/leaf.webp'></img>
+            <div className='sm:grid sm:grid-cols-4 sm:grid-rows-4 sm:gap-5 sm:w-screen sm:px-10 py-10  '>
+                <img src='/images/car.webp' alt='closeup shot of a toy car'></img>
+                <img src='/images/ole.webp' alt='close up shot of a Jewellery'></img>
+                <img src='/images/apple.webp' alt='close up shot of an apple'></img>
+                <img src='/images/oldman.webp' alt='picture of a street vendor selling clothes'></img>
+                <img src='/images/trash.webp' alt='picture of an abandoned street'></img>
+                <img src='/images/boat2.webp' alt='picure of a boat during sunset'></img>
+                <img src='/images/light.webp' alt='shot of a light in darkness'></img>
+                <img src='/images/window.webp' alt='rays of sun pouring in through a window'></img>
+                <img src='/images/tree.webp' alt='a blurred image a tree during rain'></img>
+                <img src='/images/lens.webp' alt='macro shot of a camera lens'></img>
+                <img src='/images/lego.webp' alt='cinematic image of a lego plane model'></img>
+                <img src='/images/leaf.webp' alt='close up shot of water droplets on a green leaf'></img>
             </div>
             
   
