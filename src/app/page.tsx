@@ -1,3 +1,5 @@
+import React from 'react';
+import  MyFooter  from '../components/footer';
 export default function Home() {
   return (
     <div className="bg-amber-50">
@@ -30,10 +32,7 @@ export default function Home() {
 
       </div>
       <div className="flex justify-center bg-amber-50 py-6 ">
-        <footer className="text-xs">Made with love by<a href="https://github.com/arjav0703" 
-            className=" px-1 hover:bg-amber-500 hover:underline ">
-            Arjav</a>. Arch btw
-        </footer>
+        <MyFooter/>
       </div>
     </div>
     
