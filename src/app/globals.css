@@ -1,6 +1,12 @@
 
 @import "tailwindcss";
 
+@theme {
+  --color-gruv-red: #cc241d;
+  --color-gruv-bg: #fbf1c7;
+  --color-gruv-text: ##3c3836;
+}
+
 @font-face {
   font-family: 'Tars-mono';
   src: url("/fonts/TarsMonoSmooth.ttf") format("truetype");
@@ -27,6 +33,3 @@ p, nav {
   background-color: #ffda8f;
 }
 
-* {
-  color: #28303c;
-}
