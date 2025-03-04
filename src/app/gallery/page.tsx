@@ -16,14 +16,14 @@ export default function contact() {
                 <h1 className="text-xl sm:text-3xl">GALLERY</h1>
             </div>
             <div>
-                <img ></img>
+                <img src='/images/car.webp'></img>
             </div>
             
   
         </div>
-        <div className="flex justify-cente py-6 ">
-          <MyFooter/>
-        </div>
+          <div className="flex justify-center py-6 ">
+            <MyFooter/>
+          </div>
       </div>
       
     );

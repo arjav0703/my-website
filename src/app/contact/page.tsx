@@ -21,7 +21,7 @@ export default function contact() {
             </div>
   
         </div>
-        <div className="flex justify-center bg-amber-50 py-6 ">
+        <div className="flex justify-center py-6 ">
           <MyFooter/>
         </div>
       </div>
