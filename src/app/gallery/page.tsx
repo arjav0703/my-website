@@ -10,7 +10,7 @@ export default function contact() {
             <a href='./contact' className="hover:underline">contact</a>
           </nav>
         </div>
-        <div className="py-10 flex flex-col items-center h-full px-8 sm:px-48">
+        <div className="py-10 flex flex-col items-center min-h-screen px-8 sm:px-48">
 
             <div>
                 <h1 className="text-xl sm:text-3xl">GALLERY</h1>

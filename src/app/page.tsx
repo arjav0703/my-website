@@ -10,7 +10,7 @@ export default function Home() {
           <a href='./contact' className="hover:underline">contact</a>
         </nav>
       </div>
-      <div className="py-8 flex flex-col items-center min-h-screen px-8 sm:px-48 sm:py-18" >
+      <div className="py-8 flex flex-col items-center min-h-screen  px-8 sm:px-48 sm:py-18" >
         
         <div> 
           <h1 className="sm:text-5xl text-3xl bg-gruv-accent w-fit px-2 text-black">ARJAV JAIN</h1>
