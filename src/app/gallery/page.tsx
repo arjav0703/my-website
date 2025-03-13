@@ -1,21 +1,16 @@
 import React from 'react';
 import  MyFooter  from '../../components/footer';
+import MyNav from '../components/nav';
 export default function gallery() {
     return (
-      <div className="bg-gruv-bg text-gruv-text selection:bg-gruv-selection w-full">
-        <div className="flex justify-end py-5 px-18">
-          <nav className="flex flex-row gap-5">
-            <a href='./' className="hover:underline">about</a>
-            <a href='./gallery' className="hover:underline">gallery</a>
-            <a href='./contact' className="hover:underline">contact</a>
-          </nav>
-        </div>
+      <>
+        
         <div className="py-10 flex flex-col items-center min-h-screen px-8 sm:px-48">
 
             <div>
                 <h1 className="text-xl sm:text-3xl">GALLERY</h1>
             </div>
-            <section className='sm:grid sm:grid-cols-4 sm:gap-5 sm:w-screen sm:px-10 py-10  '>
+            <section className='sm:grid grid-cols-3 sm:gap-5 sm:w-screen sm:px-10 py-10 columns lg:grid-cols-4 lg:px-32'>
                 <img src='/images/car.webp' alt='closeup shot of a toy car'className='flex'></img>
                 <img src='/images/ole.webp' alt='close up shot of a Jewellery'className='flex'></img>
                 <img src='/images/apple.webp' alt='close up shot of an apple'className='flex'></img>
@@ -35,7 +30,7 @@ export default function gallery() {
           <div className="flex justify-center py-6 ">
             <MyFooter/>
           </div>
-      </div>
+      </>
       
     );
   }

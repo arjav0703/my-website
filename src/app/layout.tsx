@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 //import { Monoton} from "next/font/google";
 import "./globals.css";
+import MyNav from "./components/nav";
 
 
 export const metadata: Metadata = {
@@ -19,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
+      className="bg-gruv-bg text-gruv-text selection:bg-gruv-selection w-full"
       >
+      <MyNav/>
         {children}
       </body>
     </html>

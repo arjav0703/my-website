@@ -2,14 +2,7 @@ import React from 'react';
 import  MyFooter  from '../components/footer';
 export default function Home() {
   return (
-    <div className="bg-gruv-bg text-gruv-text selection:bg-gruv-selection">
-      <div className="flex justify-end py-5 px-18">
-        <nav className="flex flex-row gap-5">
-          <a href='./' className="hover:underline">about</a>
-          <a href='./gallery' className="hover:underline">gallery</a>
-          <a href='./contact' className="hover:underline">contact</a>
-        </nav>
-      </div>
+    <>
       <div className="py-8 flex flex-col items-center min-h-screen  px-8 sm:px-48 sm:py-18" >
         
         <div>
@@ -37,7 +30,7 @@ export default function Home() {
       <div className="flex justify-center mb-0 py-6 ">
         <MyFooter/>
       </div>
-    </div>
+    </>
     
   );
 }
