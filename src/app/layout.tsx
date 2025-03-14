@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   publisher: "Arjav Jain",
 };
 
+
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -19,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
+      <body 
       className="bg-gruv-bg text-gruv-text selection:bg-gruv-selection w-full"
       >
       <MyNav/>

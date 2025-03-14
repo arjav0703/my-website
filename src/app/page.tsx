@@ -1,9 +1,16 @@
+"use client";
 import React from 'react';
 import  MyFooter  from '../components/footer';
+
+
+const CopyHandler = () => {
+  alert("Why are you copying it? If you want to share it, share the link to the page.");
+}
+
 export default function Home() {
   return (
     <>
-      <div className="py-8 flex flex-col items-center min-h-screen  px-8 sm:px-48 sm:py-18" >
+      <div className="py-8 flex flex-col items-center min-h-screen  px-8 sm:px-48 sm:py-18" onCopy={CopyHandler}>
         
         <div>
           <div className='column'> 
