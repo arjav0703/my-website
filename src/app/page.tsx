@@ -1,6 +1,6 @@
 "use client";
 import React, {useState} from 'react';
-import  MyFooter  from '../components/footer';
+import  MyFooter  from './components/footer';
 
 
 const CopyHandler = () => {

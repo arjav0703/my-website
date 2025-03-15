@@ -1,5 +1,5 @@
 import React from 'react';
-import  MyFooter  from '../../components/footer';
+import  MyFooter  from '../components/footer';
 import MyNav from '../components/nav';
 export default function gallery() {
     return (

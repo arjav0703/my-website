@@ -1,5 +1,5 @@
 import React from 'react';
-import  MyFooter  from '../../components/footer';
+import  MyFooter  from '../components/footer';
 export default function contact() {
     return (
       <div >
