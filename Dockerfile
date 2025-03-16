@@ -14,13 +14,15 @@ RUN npm install
 COPY . .
 
 # Build the Next.js application
-RUN npm run build
+RUN npx next build
+
+# RUN npx next export
 
 # Step 2: Serve the application
 FROM nginx:alpine
 
 # Copy the built application from the builder stage
-COPY --from=builder /app/.next/server/pages /usr/share/nginx/html
+COPY --from=builder /app/out /usr/share/nginx/html
 
 # Copy the nginx configuration file (optional)
 COPY nginx.conf /etc/nginx/conf.d/default.conf
