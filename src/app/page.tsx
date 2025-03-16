@@ -19,11 +19,11 @@ export default function Home() {
         
         <div>
           <div className='column'> 
-          <h1 className="sm:text-5xl text-3xl bg-gruv-accent w-fit p-2 text-black inline-block">ARJAV JAIN</h1>
+          <h1 className="sm:text-5xl text-3xl bg-gruv-accent w-fit px-0.5 text-black inline-block">ARJAV JAIN</h1>
           <p className='inline-block text-gray-600 mx-3'>(he/they)</p>
           </div>
 
-          <div className="flex flex-row py-1">
+          <div className="flex flex-row py-1 ">
             <p className="underline mx-2">photograper</p> 
             <p className="underline mx-2">ethical hacker</p>
             <p className="underline mx-2">coder</p>
