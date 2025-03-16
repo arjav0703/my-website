@@ -20,10 +20,10 @@ RUN npm run build
 FROM nginx:alpine
 
 # Copy the built application from the builder stage
-COPY --from=builder /app/out /usr/share/nginx/html
+COPY --from=builder /app/.next/server/pages /usr/share/nginx/html
 
 # Copy the nginx configuration file (optional)
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Expose the port the app runs on
 EXPOSE 80
