@@ -8,21 +8,19 @@ const blogs = [
 ]
 
 const Bloglist = () => (
-  blogs.map((blog) => {
-    return (
-      <div key={Math.random()*10}>
-        <ol>
-            <li>
-              <p>
-              <a href={`/blog/${blog}`} >
-                {blog}
-              </a>
-              </p>
-            </li>
-        </ol>
-      </div>
-    );
-  })
+  <ol className="list-decimal list-inside">
+    {blogs.map((blog) => {
+      return (
+        <li key={blog}>
+         
+            <a href={`/blog/${blog}`} id='bloglist'>
+              {blog}
+            </a>
+          
+        </li>
+      );
+    })}
+  </ol>
 );
 
 
@@ -32,7 +30,7 @@ export default function Blogpage() {
     <>
       <div className="py-8 flex flex-col min-h-screen  px-8 sm:px-48 sm:py-18" onCopy={CopyHandler}>
         <div>
-          <h1 className="text-xl sm:text-3xl mb-5">BLOG</h1>
+          <h1 className="text-xl sm:text-3xl mb-5">BLOGS</h1>
         </div>
 
         <Bloglist/>

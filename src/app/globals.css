@@ -8,6 +8,7 @@
   --color-gruv-accent: #d79921;
   --color-gruv-blue: #076678;
   
+  
 }
 
 @font-face {
@@ -27,7 +28,7 @@ h1 {
   font-family: 'Tars-mono';
 }
 
-p, nav {
+p, nav, #bloglist {
   font-family: 'Space-Mono';
 }
 
