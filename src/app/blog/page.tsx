@@ -14,7 +14,7 @@ const Bloglist = () => (
         <ol>
             <li>
               <p>
-              <a href={`/${blog}`} >
+              <a href={`/blog/${blog}`} >
                 {blog}
               </a>
               </p>
@@ -30,17 +30,14 @@ const Bloglist = () => (
 export default function Blogpage() {
   return (
     <>
-      <div className="py-8 flex flex-col items-center min-h-screen  px-8 sm:px-48 sm:py-18" onCopy={CopyHandler}>
-      <div>
-        <h1 className="text-xl sm:text-3xl mb-5">BLOG</h1>
-      </div>
+      <div className="py-8 flex flex-col min-h-screen  px-8 sm:px-48 sm:py-18" onCopy={CopyHandler}>
+        <div>
+          <h1 className="text-xl sm:text-3xl mb-5">BLOG</h1>
+        </div>
 
-      <Bloglist/>
-
-      </div>
-      <div className="flex justify-center mb-0 py-6 ">
-        
-      </div>
+        <Bloglist/>
+      </div>  
+      
     </>
     
   );
