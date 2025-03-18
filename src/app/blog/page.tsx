@@ -3,6 +3,7 @@ import CopyHandler from '../components/CopyHandler';
 import { useEffect } from 'react';
 
 const blogs = [
+  'test',
   'how-to-make-a-pcb',
   'how-to-make-a-website',
   'how-to-make-a-game',
