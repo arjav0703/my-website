@@ -27,9 +27,6 @@ export default function gallery() {
             
   
         </div>
-          <div className="flex my-5 w-[100%] justify-center py-6 ">
-            <MyFooter/>
-          </div>
       </>
       
     );

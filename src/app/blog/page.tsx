@@ -1,6 +1,4 @@
 "use client";
-import React, {useState} from 'react';
-import  MyFooter  from '../components/footer';
 import CopyHandler from '../components/CopyHandler';
 
 const blogs = [
@@ -13,7 +11,7 @@ const Bloglist = () => (
   blogs.map((blog) => {
     return (
       <div key={Math.random()*10}>
-        <ol >
+        <ol>
             <li>
               <p>
               <a href={`/${blog}`} >
@@ -41,7 +39,7 @@ export default function Blogpage() {
 
       </div>
       <div className="flex justify-center mb-0 py-6 ">
-        <MyFooter/>
+        
       </div>
     </>
     

@@ -39,9 +39,6 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="flex justify-center mb-0 py-6 ">
-        <MyFooter/>
-      </div>
     </>
     
   );

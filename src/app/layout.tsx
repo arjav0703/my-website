@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 //import { Monoton} from "next/font/google";
 import "./globals.css";
 import MyNav from "./components/nav";
+import MyFooter from "./components/footer";
 
 
 export const metadata: Metadata = {
@@ -26,7 +27,9 @@ export default function RootLayout({
       >
       <MyNav/>
         {children}
+        <MyFooter/>
       </body>
+
     </html>
   );
 }
