@@ -22,6 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="google-site-verification" content="DmGaAr_g-Oz3oVV_qdBmIaeevtKAPJKavrsTDD2KxsE" />
+      </head>
       <body 
       className="bg-gruv-bg text-gruv-text selection:bg-gruv-selection w-full"
       >
