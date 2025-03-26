@@ -1,7 +1,5 @@
 "use client";
 import React, {useState} from 'react';
-import  MyFooter  from './components/footer';
-
 
 const CopyHandler = () => {
   alert("Why are you copying it? If you want to share it, share the link to the page.");
