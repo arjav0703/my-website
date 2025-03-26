@@ -1,5 +1,4 @@
 import React from 'react';
-import  MyFooter  from '../components/footer';
 export default function contact() {
     return (
       <div >
@@ -15,9 +14,6 @@ export default function contact() {
                 <p className="text-l sm:text-xl py-5 lg:py:2">You can also find me on Discord <a href='https://discordapp.com/users/1265239979143987273' className='hover:underline bg-gruv-blue text-white px-1'>@madmax000108</a></p>
             </div>
   
-        </div>
-        <div className="flex justify-center py-6 ">
-          <MyFooter/>
         </div>
       </div>
       
