@@ -23,18 +23,31 @@ export default function Home() {
         onCopy={CopyHandler}
       >
         <div>
-          <div className="column">
-            <h1 className="sm:text-5xl text-3xl bg-gruv-accent w-fit px-0.5 text-black inline-block">
-              ARJAV JAIN
-            </h1>
-            <p className="inline-block text-gray-600 mx-3">(he/they)</p>
+          <div>
+            <div className="flex">
+              <img
+                src="/images/me.png"
+                alt="Arjav Jain"
+                className="rounded-full w-40 h-40 sm:w-60 sm:h-60 border-4 border-gruv-accent"
+              />
+
+              <div className="my-auto ml-10">
+                <div className="column">
+                  <h1 className="sm:text-5xl text-3xl bg-gruv-accent w-fit px-0.5 text-black inline-block">
+                    ARJAV JAIN
+                  </h1>
+                  <p className="inline-block text-gray-600 mx-3">(he/they)</p>
+
+                  <div className="flex flex-row py-1 mt-2">
+                    <p className="underline mx-2">photographer</p>
+                    <p className="underline mx-2">ethical hacker</p>
+                    <p className="underline mx-2">coder</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div className="flex flex-row py-1 ">
-            <p className="underline mx-2">photograper</p>
-            <p className="underline mx-2">ethical hacker</p>
-            <p className="underline mx-2">coder</p>
-          </div>
           <p className="my-2.5 sm:text-l text-s sm:my-5 sm:pt-5">
             i am a 15 year old from Vidisha. i really dont't have a fav language
             but i love to try almost everything from 3D modelling to functional
@@ -87,7 +100,7 @@ export default function Home() {
             like react, tailwind, C, designing in figma.
           </p>
         </div>
-      </div>
+      </div >
     </>
   );
 }
