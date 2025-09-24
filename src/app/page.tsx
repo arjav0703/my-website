@@ -96,8 +96,8 @@ export default function Home() {
             >
               [counterspell]
             </a>
-            . and guess what? my team ranked 2nd!! i learnt many things
-            like react, tailwind, C, designing with figma. I am learning Rust at the moment. Recently, I attended a 4 day international hackathon called
+            . and guess what? my team ranked 2nd!!
+            I am learning Rust at the moment. Recently, I attended a 4 day international hackathon called
             <a
               className="mx-1 hover:bg-amber-500 hover:underline"
               href="https://shipwrecked.hackclub.com"
@@ -105,7 +105,7 @@ export default function Home() {
               [shipwrecked]
             </a>
 
-            <img src="/images/shipwrecked.jpg" alt="shipwrecked" className="w-xl mx-auto mt-10" />
+            <img src="/images/shipwrecked.jpg" alt="shipwrecked" className="w-full mx-auto mt-10 rounded-sm" />
           </p>
         </div>
       </div >
