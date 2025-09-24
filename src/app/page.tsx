@@ -71,16 +71,17 @@ export default function Home() {
           </p>
 
           <p className="sm:text-l text-s my-2.5 sm:my:5">
-            i started my journey in tech when i was 12 and learnt photo editing
-            . later, pirating pc games made me even more
-            enthusiastic. i started using
+            ever since childhood, i was a really curious and artistic person.
+            i started my journey in tech when i was 12 and got into photo editing
+            . video games made me fall in love with computers
+            . i started using
             <a
               className="mx-1 hover:bg-amber-500 hover:underline"
               href="https://itsfoss.com/linux-better-than-windows/"
             >
               [linux]
             </a>
-            which got me into coding with python. I did courses like
+            - which eventually got me into coding. I did courses like
             <a
               className="mx-1 hover:bg-amber-500 hover:underline"
               href="https://www.harvardonline.harvard.edu/course/cs50s-introduction-programming-python"
@@ -96,7 +97,7 @@ export default function Home() {
               [counterspell]
             </a>
             . and guess what? my team ranked 2nd!! i learnt many things
-            like react, tailwind, C, designing in figma. I am learning Rust at the moment. Recently, I attended a 4 day international hackathon called
+            like react, tailwind, C, designing with figma. I am learning Rust at the moment. Recently, I attended a 4 day international hackathon called
             <a
               className="mx-1 hover:bg-amber-500 hover:underline"
               href="https://shipwrecked.hackclub.com"
