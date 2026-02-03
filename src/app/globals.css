@@ -1,24 +1,32 @@
-
 @import "tailwindcss";
 
+/*@font-face {
+    font-family: "Tars-mono";
+    src: url("/fonts/TarsMonoSmooth.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}*/
+
 @font-face {
-  font-family: 'Tars-mono';
-  src: url("/fonts/TarsMonoSmooth.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Space-mono";
+    src: url("/fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
+
 @font-face {
-  font-family: 'Space-mono';
-  src: url("/fonts/Space_Mono/SpaceMono-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "Press Start 2P";
+    src: url("/fonts/PressStart2P-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
 }
 
 h1 {
-  font-family: 'Tars-mono';
+    font-family: "Press Start 2P";
 }
 
-p, nav, #bloglist {
-  font-family: 'Space-Mono';
+p,
+nav,
+#bloglist {
+    font-family: "Space-Mono";
 }
-
