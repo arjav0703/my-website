@@ -25,8 +25,16 @@ function RandomCharacter() {
 
 export default function RenderCharacter() {
   return (
-    <div className="fixed bottom-10 right-10 hover:scale-110 active:scale-90">
+    <div
+      className="fixed bottom-10 right-10 hover:scale-110 active:scale-90"
+      onClick={() => PlayAudio()}
+    >
       <RandomCharacter />
     </div>
   );
+}
+
+function PlayAudio() {
+  const audio = new Audio("/retro_sound.mp3");
+  audio.play();
 }
