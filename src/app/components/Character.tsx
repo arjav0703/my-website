@@ -1,3 +1,7 @@
+"use client";
+
+import { useState, useEffect } from "react";
+
 function RandomCharacter() {
   const characters = [
     "nes-mario",
@@ -9,15 +13,19 @@ function RandomCharacter() {
     "nes-kirby",
   ];
 
-  const randomIndex = Math.floor(Math.random() * characters.length);
-  const randomCharacter = characters[randomIndex];
+  const [randomCharacter, setRandomCharacter] = useState(characters[0]);
+
+  useEffect(() => {
+    const randomIndex = Math.floor(Math.random() * characters.length);
+    setRandomCharacter(characters[randomIndex]);
+  }, []);
 
   return <i className={randomCharacter}></i>;
 }
 
 export default function RenderCharacter() {
   return (
-    <div className="fixed bottom-10 right-10">
+    <div className="fixed bottom-10 right-10 hover:scale-110 active:scale-90">
       <RandomCharacter />
     </div>
   );

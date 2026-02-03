@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <div className="bg-[#212529]">
         <div
-          className="pt-20 max-w-6xl mx-auto  h-screen px-8 py-4 flex flex-col gap-10"
+          className="pt-20 max-w-7xl mx-auto  h-screen px-8 py-4 flex flex-col gap-10"
           onCopy={CopyHandler}
         >
           <NameSection />

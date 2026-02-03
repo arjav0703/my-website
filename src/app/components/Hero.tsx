@@ -19,11 +19,11 @@ function SkillSection() {
       </div>
       <div className="lists is-success my-3">
         <ul className="nes-list is-circle">
-          <p className="text-xl">
-            <li>- Rust</li>
-            <li>- Film making and Photography</li>
-            <li>- Web Development</li>
-          </p>
+          {/*<p className="text-xl">*/}
+          <li>- Rust</li>
+          <li>- Film making and Photography</li>
+          <li>- Web Development</li>
+          {/*</p>*/}
         </ul>
       </div>
     </section>
