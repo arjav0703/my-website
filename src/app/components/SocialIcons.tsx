@@ -18,7 +18,7 @@ export default function SocialIcons() {
 function NesIcon({ icon, url }: { icon: string; url: string }) {
   return (
     <i
-      className={`nes-icon ${icon} is-medium mx-5`}
+      className={`nes-icon ${icon} is-medium mx-5 hover:scale-110 active:scale-90`}
       onClick={() => window.open(url, "_blank")}
     ></i>
   );
