@@ -15,7 +15,7 @@ export default function Home() {
       >
         <NameSection />
         <Hero />
-        <StuffILike />
+        <SkillSection />
         <RenderCharacter />
       </div>
     </div>
@@ -32,7 +32,7 @@ function NameSection() {
           className="h-70 w-80 object-cover mr-6 rounded-full"
         />
         <div className="flex flex-col">
-          <div className="nes-text is-warning text-5xl my-4">Arjav Jain</div>
+          <div className="nes-text text-pink-400 text-5xl my-4">Arjav Jain</div>
           <div className="flex">
             <SocialIcons />
           </div>
@@ -42,6 +42,21 @@ function NameSection() {
   );
 }
 
-function StuffILike() {
-  return <div className="nes-container is-dark is-rounded">Stuff I Like</div>;
+function SkillSection() {
+  return (
+    <section className="nes-container is-dark ">
+      <div className="text-2xl flex is-success nes-text flex-row gap-5 my-3">
+        Skills
+      </div>
+      <div className="lists is-success my-3">
+        <ul className="nes-list is-circle">
+          {/*<p className="text-xl">*/}
+          <li>- Rust</li>
+          <li>- Film making and Photography</li>
+          <li>- Web Development</li>
+          {/*</p>*/}
+        </ul>
+      </div>
+    </section>
+  );
 }

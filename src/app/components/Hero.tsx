@@ -1,31 +1,25 @@
 export default function Hero() {
   return (
-    <section className="nes-container is-dark is-rounded">
-      <p className="text-xl py-5 nes-text is-warning">
+    <section className="nes-container is-dark is-rounded ">
+      <p className="text-xl py-5 nes-text text-yellow-200">
         Hey! I'm Arjav, a 15-year-old from India with a passion for technology
-        and creativity. Welcome to my personal website where I share my journey
-        and projects. 🚀✨
+        and creativity. Welcome to my personal website 🚀✨
       </p>
-      <SkillSection />
+      <StuffILike />
     </section>
   );
 }
 
-function SkillSection() {
+function StuffILike() {
   return (
-    <section className="nes-container is-dark ">
-      <div className="text-2xl flex is-success nes-text flex-row gap-5 my-3">
-        Skills
-      </div>
-      <div className="lists is-success my-3">
-        <ul className="nes-list is-circle">
-          {/*<p className="text-xl">*/}
-          <li>- Rust</li>
-          <li>- Film making and Photography</li>
-          <li>- Web Development</li>
-          {/*</p>*/}
-        </ul>
-      </div>
-    </section>
+    <div className=" ">
+      {/*<h1 className="nes-text is-primary text-2xl">Stuff I Like</h1>*/}
+      <p className="nes-text text-xl text-yellow-200">
+        In my free time, I enjoy reading fiction books, watching movies, and
+        playing video games. Some noteble mentions from the video games category
+        would be COD Black Ops, GTA V, Resident Evil 4, Rise of the Tomb Raider,
+        and Cyberpunk 2077
+      </p>
+    </div>
   );
 }
