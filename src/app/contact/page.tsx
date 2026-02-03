@@ -1,24 +1,45 @@
-import React from 'react';
-export default function contact() {
+import React from "react";
+import { DiscordSection, EmailSection } from "./util";
+
+function Contact() {
   return (
-    <div >
-      <div className="py-10 flex flex-col items-center min-h-screen px-8 sm:px-48">
+    <div className="bg-[#212529] min-h-screen">
+      <div className="pt-10 pb-20 flex flex-col items-center px-8 max-w-7xl mx-auto">
+        <section className="nes-container is-dark is-rounded w-full mb-8">
+          <h1 className="nes-text is-warning text-2xl sm:text-4xl mb-4">
+            CONTACT ME
+          </h1>
+          <p className="text-gray-300">
+            Want to get in touch? Here&apos;s how you can reach me!
+          </p>
+        </section>
 
-        <div>
-          <h1 className="text-xl sm:text-3xl">CONTACT ME</h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
+          <EmailSection />
+
+          <DiscordSection />
+
+          <Meeee />
         </div>
-        <div className="py-5">
-          <p className="text-l sm:text-xl">You can email me at</p>
-          <p className="text-l sm:text-xl"> <a href="mailto:arjavjain0703@gmail.com" className="hover:underline hover:bg-amber-100">arjavjain0703@gmail.com</a> or <a href="mailto:arjav@hackclub.app" className="hover:underline hover:bg-amber-100">arjav@hackclub.app</a></p>
-
-          <p className="text-l sm:text-xl py-5 lg:py:2">You can also find me on Discord <a href='https://discordapp.com/users/1265239979143987273' className='hover:underline bg-gruv-blue text-white px-1'>@madmax000108</a></p>
-        </div>
-        <img src="/images/me_hdr.webp" alt="shipwrecked" className="w-full mx-auto mt-10 rounded-lg shadow-lg border-4 border-transparent bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 p-1" />
-
-
       </div>
     </div>
-
   );
 }
 
+function Meeee() {
+  return (
+    <section className="nes-container is-dark is-rounded w-full mt-8">
+      <div className="flex items-center gap-2 mb-4">
+        <i className="nes-icon trophy is-small"></i>
+        <span className="nes-text is-warning">That&apos;s me!</span>
+      </div>
+      <img
+        src="/images/me_hdr.webp"
+        alt="Arjav"
+        className="w-full rounded-lg pixelated"
+      />
+    </section>
+  );
+}
+
+export default Contact;
