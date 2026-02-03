@@ -11,7 +11,7 @@ export default function MyNav() {
           type="success"
           linkto="./knowledgebase"
         />
-        <NavBtn textdata="contact 💌" type="info" linkto="./contact" />
+        <NavBtn textdata="contact 💌" type="error" linkto="./contact" />
       </nav>
     </div>
   );
