@@ -43,5 +43,23 @@ function NameSection() {
 }
 
 function StuffILike() {
-  return <div className="nes-container is-dark is-rounded">Stuff I Like</div>;
+  const interests = [
+    { icon: "📚", label: "Book Reading" },
+    { icon: "🎮", label: "Gaming" },
+  ];
+
+  return (
+    <section className="nes-container is-dark is-rounded">
+      <h2 className="nes-text is-primary text-2xl mb-4">Stuff I Like</h2>
+      <div className="flex flex-wrap">
+        {interests.map((interest, index) => (
+          <span key={index} className="nes-badge mr-4 mb-2">
+            <span className="is-dark">
+              {interest.icon} {interest.label}
+            </span>
+          </span>
+        ))}
+      </div>
+    </section>
+  );
 }
