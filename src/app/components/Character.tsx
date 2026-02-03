@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 function RandomCharacter() {
   const characters = [
@@ -24,17 +24,45 @@ function RandomCharacter() {
 }
 
 export default function RenderCharacter() {
+  const [isPlaying, setIsPlaying] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    audioRef.current = new Audio("/retro_sound.mp3");
+
+    const handleEnded = () => {
+      setIsPlaying(false);
+    };
+
+    audioRef.current.addEventListener("ended", handleEnded);
+
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.removeEventListener("ended", handleEnded);
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, []);
+
+  const toggleAudio = () => {
+    if (!audioRef.current) return;
+
+    if (isPlaying) {
+      audioRef.current.pause();
+      setIsPlaying(false);
+    } else {
+      audioRef.current.play();
+      setIsPlaying(true);
+    }
+  };
+
   return (
     <div
       className="fixed bottom-10 right-10 hover:scale-110 active:scale-90"
-      onClick={() => PlayAudio()}
+      onClick={toggleAudio}
     >
       <RandomCharacter />
     </div>
   );
-}
-
-function PlayAudio() {
-  const audio = new Audio("/retro_sound.mp3");
-  audio.play();
 }
