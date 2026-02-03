@@ -31,7 +31,7 @@ export default function RootLayout({
           href="./node_modules/nes.css/css/nes.min.css"
         ></link>
       </head>
-      <body className="bg-gruv-bg text-gruv-text selection:bg-gruv-selection w-full">
+      <body className="w-full">
         <MyNav />
         {children}
         <MyFooter />
