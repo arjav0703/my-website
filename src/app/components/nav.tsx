@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function MyNav() {
   return (
-    <div className="bg-[#212529]">
-      <nav className="flex justify-end items-center max-w-7xl mx-auto gap-5 px-8 py-4">
+    <div className="flex justify-center items-center bg-[#212529]">
+      <nav className="flex justify-center items-center px-8 py-4">
         <NavBtn textdata="about ✨" type="primary" linkto="./" />
         <NavBtn textdata="gallery 🎨" type="warning" linkto="./gallery" />
         <NavBtn
@@ -27,7 +27,7 @@ function NavBtn({
   linkto: string;
 }) {
   return (
-    <Link href={linkto}>
+    <Link href={linkto} className="mx-1.5">
       <button type="button" className={`nes-btn is-${type}`}>
         {textdata}
       </button>
