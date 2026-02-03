@@ -15,6 +15,7 @@ export default function Home() {
       >
         <NameSection />
         <Hero />
+        <StuffILike />
         <RenderCharacter />
       </div>
     </div>
@@ -24,10 +25,23 @@ export default function Home() {
 function NameSection() {
   return (
     <section className="nes-container is-dark is-rounded">
-      <div className="nes-text is-warning text-5xl my-4">Arjav Jain</div>
-      <div className="flex">
-        <SocialIcons />
+      <div className="flex flex-row items-center ">
+        <img
+          src="/images/me2.jpeg"
+          alt="Avatar"
+          className="h-70 w-80 object-cover mr-6 rounded-full"
+        />
+        <div className="flex flex-col">
+          <div className="nes-text is-warning text-5xl my-4">Arjav Jain</div>
+          <div className="flex">
+            <SocialIcons />
+          </div>
+        </div>
       </div>
     </section>
   );
+}
+
+function StuffILike() {
+  return <div className="nes-container is-dark is-rounded">Stuff I Like</div>;
 }

@@ -6,11 +6,6 @@ export default function MyNav() {
       <nav className="flex justify-center items-center px-8 py-4">
         <NavBtn textdata="about ✨" type="primary" linkto="./" />
         <NavBtn textdata="gallery 🎨" type="warning" linkto="./gallery" />
-        <NavBtn
-          textdata="knowledgebase 📚"
-          type="success"
-          linkto="./knowledgebase"
-        />
         <NavBtn textdata="contact 💌" type="error" linkto="./contact" />
       </nav>
     </div>

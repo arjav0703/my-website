@@ -18,9 +18,8 @@ function Contact() {
           <EmailSection />
 
           <DiscordSection />
-
-          <Meeee />
         </div>
+        <Meeee />
       </div>
     </div>
   );
@@ -30,11 +29,11 @@ function Meeee() {
   return (
     <section className="nes-container is-dark is-rounded w-full mt-8">
       <div className="flex items-center gap-2 mb-4">
-        <i className="nes-icon trophy is-small"></i>
-        <span className="nes-text is-warning">That&apos;s me!</span>
+        <i className="nes-jp-logo"></i>
+        <span className="nes-text is-error text-3xl">try to find me :p</span>
       </div>
       <img
-        src="/images/me_hdr.webp"
+        src="/images/shipwrecked.jpg"
         alt="Arjav"
         className="w-full rounded-lg pixelated"
       />
