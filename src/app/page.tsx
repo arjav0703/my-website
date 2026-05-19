@@ -1,11 +1,37 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
+import gsap from "gsap";
+import { SplitText } from "gsap/SplitText";
+import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
 import CopyHandler from "./components/CopyHandler";
 import "nes.css/css/nes.min.css";
 import SocialIcons from "./components/SocialIcons";
 import Hero from "./components/Hero";
 
 export default function Home() {
+  useEffect(() => {
+    gsap.registerPlugin(SplitText, ScrambleTextPlugin);
+
+    const nameElement = document.getElementById("nameScramble") as HTMLElement;
+    const message = "Arjav Jain";
+    const scrambleChars = "upperAndLowerCase";
+
+    if (nameElement) {
+      gsap.from(nameElement, {
+        duration: 2,
+        scrambleText: {
+          text: "*&@#$#@#$@*&$(@#^)",
+          chars: scrambleChars,
+          revealDelay: 0.5,
+          speed: 1,
+        },
+        ease: "power2.inOut",
+      });
+    }
+
+    return () => {};
+  }, []);
+
   return (
     <div className="bg-[#212529] min-h-screen flex flex-col">
       <div
@@ -23,14 +49,16 @@ export default function Home() {
 function NameSection() {
   return (
     <section className="nes-container is-dark is-rounded">
-      <div className="flex flex-row items-center ">
+      <div className="flex flex-row items-center gap-8">
         <img
-          src="/images/me2.jpeg"
+          src="/images/me3.jpeg"
           alt="Avatar"
-          className="h-70 w-80 object-cover mr-6 rounded-full"
+          className="h-70 w-70 object-cover rounded-full flex-shrink-0"
         />
         <div className="flex flex-col">
-          <div className="nes-text text-pink-400 text-5xl my-4">Arjav Jain</div>
+          <div className="nes-text text-pink-400 text-5xl my-4">
+            <span id="nameScramble">Arjav Jain</span>
+          </div>
           <div className="flex">
             <SocialIcons />
           </div>
@@ -42,7 +70,7 @@ function NameSection() {
 
 function SkillSection() {
   return (
-    <section className="nes-container is-dark ">
+    <section className="nes-container is-rounded is-dark ">
       <div className="text-2xl flex is-success nes-text flex-row gap-5 my-3">
         Skills
       </div>
