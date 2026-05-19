@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section className="nes-container is-dark is-rounded ">
       <p className="text-xl py-5 nes-text text-yellow-200">
-        Hey! I'm Arjav, a 15-year-old from India with a passion for technology
+        Hey! I'm Arjav, a 16 year old from India with a passion for technology
         and creativity. Welcome to my personal website 🚀✨
       </p>
       <StuffILike />
