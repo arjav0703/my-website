@@ -12,15 +12,18 @@ export default function Home() {
   useEffect(() => {
     gsap.registerPlugin(SplitText, ScrambleTextPlugin);
 
-    const nameElement = document.getElementById("nameScramble") as HTMLElement;
-    const message = "Arjav Jain";
+    const nameElement = document.getElementsByClassName(
+      "nameScramble",
+    ) as HTMLCollectionOf<HTMLElement>;
+
+    // const message = "Arjav Jain";
     const scrambleChars = "upperAndLowerCase";
 
     if (nameElement) {
       gsap.from(nameElement, {
         duration: 2,
         scrambleText: {
-          text: "*&@#$#@#$@*&$(@#^)",
+          text: "radiosilence21",
           chars: scrambleChars,
           revealDelay: 0.5,
           speed: 1,
@@ -57,7 +60,7 @@ function NameSection() {
         />
         <div className="flex flex-col">
           <div className="nes-text text-pink-400 text-5xl my-4">
-            <span id="nameScramble">Arjav Jain</span>
+            <span className="nameScramble">Arjav Jain</span>
           </div>
           <div className="flex">
             <SocialIcons />
