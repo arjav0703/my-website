@@ -1,5 +1,7 @@
 # Horizons Arcana - from the perspective of a watermelon 🍉🇸🇬⭐️  
 
+![grp3](/blogs/arcana/grp3.png)
+
 > **Some notes before you read this:**
 > - It's the personal perspective of the author and some information may be inaccurate. Feel free to tell me if I made a mistake and I'll correct it if I feel that I was wrong.
 > - If some piece of text needs clarification, feel free to contact me.
