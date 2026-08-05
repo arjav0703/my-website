@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 //import { Monoton} from "next/font/google";
 import "./globals.css";
+import "nes.css/css/nes.min.css";
 import "highlight.js/styles/github-dark.css";
 import MyNav from "./components/nav";
 import MyFooter from "./components/footer";
@@ -27,10 +28,6 @@ export default function RootLayout({
           name="google-site-verification"
           content="DmGaAr_g-Oz3oVV_qdBmIaeevtKAPJKavrsTDD2KxsE"
         />
-        <link
-          rel="stylesheet"
-          href="./node_modules/nes.css/css/nes.min.css"
-        ></link>
       </head>
       <body className="w-full">
         <MyNav />

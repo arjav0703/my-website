@@ -4,7 +4,6 @@ import gsap from "gsap";
 import { SplitText } from "gsap/SplitText";
 import { ScrambleTextPlugin } from "gsap/ScrambleTextPlugin";
 import CopyHandler from "./components/CopyHandler";
-import "nes.css/css/nes.min.css";
 import SocialIcons from "./components/SocialIcons";
 import Hero from "./components/Hero";
 
