@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 //import { Monoton} from "next/font/google";
 import "./globals.css";
+import "highlight.js/styles/github-dark.css";
 import MyNav from "./components/nav";
 import MyFooter from "./components/footer";
 // script.js

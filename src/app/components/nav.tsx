@@ -7,6 +7,7 @@ export default function MyNav() {
         <NavBtn textdata="about ✨" type="primary" linkto="./" />
         <NavBtn textdata="experience 💼" type="success" linkto="./experience" />
         <NavBtn textdata="gallery 🎨" type="warning" linkto="./gallery" />
+        <NavBtn textdata="blog 📝" type="primary" linkto="./blogs" />
         <NavBtn textdata="contact 💌" type="error" linkto="./contact" />
       </nav>
     </div>
