@@ -1,10 +1,10 @@
 # Horizons Arcana - from the perspective of a watermelon 🍉🇸🇬⭐️  
 
 > **Some notes before you read this:**
-> - It's the personal perspective of the author and some information may be inaccurate. Feel free to tell me if I made a mistake and I'll correct it if I feel that I am wrong.
+> - It's the personal perspective of the author and some information may be inaccurate. Feel free to tell me if I made a mistake and I'll correct it if I feel that I was wrong.
 > - If some piece of text needs clarification, feel free to contact me.
-> - The goal is *not* to criticize or glorify the event but to let others (especially organizers of Arcana as well as other events) know the perspective of a participant.
-> - I will not use any names while criticizing, as it would be unfair to that person and to prevent hate speech.
+> - The goal is *not* to criticize or glorify the event but to let others know my perspective of the event.
+> - I will not use any names while criticizing to respect that person's privacy.
 
 Horizons Arcana was one heck of an event. I had so much fun in Singapore and I will cherish these memories forever. My favorite part was talking to the people and taking some banger pics in SG. As a photography enthusiast, it was a dream come true when I got to explore an awesome place like Singapore freely and take as many photos as I could. <span style="color:#f472b6">**HUGE HUGE SUPER HUGE THANK YOU**</span> TO ALL THE ORGANIZERS AND HC STAFF FOR MAKING THIS EVENT SO GOOD IDUHFIUDFHISDFHISDFUH 💖  I still can't believe that the event is over. i wish it was longer 🥺
 
@@ -78,7 +78,7 @@ I appreciate the fact that there were enough vegetarian and vegan food options. 
 
 So before the event, we were told (in the #senators Slack channel) that they didn't have enough mattresses for everyone, so we'd have to arrange sleeping bags ourselves. I didn't pay much attention to this and didn't bring a mattress. Things started to get more complicated when a **lot** of people didn't bring a sleeping bag and ended up sleeping on tables, floors, or chairs.
 
-I was told that there would be mattresses for everyone the next night, but that also didn't happen. Though I understand that I am in no position to blame them for this, as they communicated it to us, I still wanna ask: what caused a lack of mattresses? Like if it was a budget situation, why not add it to the shop?  
+I was told that there would be mattresses for everyone the next night, but that also didn't happen. I still wanna ask: what caused a lack of mattresses? if it was a budget situation, why not add it to the shop?  
 
 ### The people!  
 
@@ -90,7 +90,7 @@ I made about 4 new friends and they were really nice and fun people. **YAYYYY!!!
 
 ### Travel and accommodation logistics 🚄  
 
-The organizers worked really really hard to apply for the visas of the participants and made the whole process very convenient. The process was near perfect. Though it wasn't *needed*, it would've been nicer if the visas were applied for earlier, because from what I know, parents of a lot of participants (especially the ones who were traveling to an HC event for the first time) were really worried.
+The organizers worked really really hard to apply for the visas of the participants and made the whole process very convenient. The process was near perfect. Though it wasn't *needed*, it would've been nicer if the visas were applied for earlier; because afaik, parents of a lot of participants (especially the ones who were traveling to an HC event for the first time) were really worried.
 
 Huge shoutout to **Daamin**, **Karthik**, and **Manan** for working so hard to get our visas.
 
