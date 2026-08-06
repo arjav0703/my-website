@@ -4,11 +4,11 @@ export default function MyNav() {
   return (
     <div className="flex justify-center items-center bg-[#212529]">
       <nav className="flex justify-center items-center px-8 py-4">
-        <NavBtn textdata="about ✨" type="primary" linkto="./" />
-        <NavBtn textdata="experience 💼" type="success" linkto="./experience" />
-        <NavBtn textdata="gallery 🎨" type="warning" linkto="./gallery" />
-        <NavBtn textdata="blog 📝" type="primary" linkto="./blogs" />
-        <NavBtn textdata="contact 💌" type="error" linkto="./contact" />
+        <NavBtn textdata="about ✨" type="primary" linkto="/" />
+        <NavBtn textdata="experience 💼" type="success" linkto="/experience" />
+        <NavBtn textdata="gallery 🎨" type="warning" linkto="/gallery" />
+        <NavBtn textdata="blog 📝" type="primary" linkto="/blogs" />
+        <NavBtn textdata="contact 💌" type="error" linkto="/contact" />
       </nav>
     </div>
   );
