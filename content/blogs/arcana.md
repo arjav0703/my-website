@@ -99,3 +99,15 @@ The organizers worked really really hard to apply for the visas of the participa
 Huge shoutout to **Daamin**, **Karthik**, and **Manan** for working so hard to get our visas.
 
 I (and about 8 other people) was picked up from the airport by **Anson** and I was given an MRT card. This was seamless and I didn't face any issues. I also stayed in post-accommodation and that was also quite seamless, and **Aly** helped us with checking in and other needs.
+
+
+### Project reviews :)
+okay so i revieweed a ton of projects for horions arcana so i have a lot of insight on this. i'll try not to be biased and here's what i have to say. If everybody spent 5 mins reading the horizons shipping guide and properly tested their projects, over 90% of the rejections and delayed would've been avoided. There were some exceptions and mistakes that happened on our side but they were negligible and were addressed in a timely manner.
+
+I know there was a delay in the review process and I acknoledge that improvement can be done to make the process faster. 
+
+As for fraud review, I know it was pretty slow as well and there's room for improvement there as well. I just want everyone to know that all of us tried our best and as far as I know - nobody was unable to attend the event because of review delays and we provided debt as well. If you are someone who failed to attend the event because of review delays, please reach out to me - I'd love to hear your story and make sure this never happens in the future. 
+
+
+# And that's a wrap!
+Thank you for reading this blog post. I hope you enjoyed it and got some insight into my experience at Horizons Arcana. If you have any questions or want to share your own experiences, feel free to reach out to me. I am Arjav (@february friday on slack).
