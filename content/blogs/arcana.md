@@ -40,7 +40,7 @@ After coming back at ~1:45, I took a lil 20 min nap and got back to work after a
 
 ![me](/blogs/arcana/me4.png)
 ![fraud](/blogs/arcana/fraud.png)
-![grp2](/blogs/arcana/grp2.JPG)
+![grp2](/blogs/arcana/me5.JPG)
 
 there were tons of other cool lightning talks asw. personally, lemong's talk about ubisoft was my fav. We also showcased the protype of the app and got a cool arcana keychain. I went out to do some shopping and exploration with Anay. 1st Aug was @hex's birthday and I talked to the orgs about this and they bought a cake so we celebrated that night. After the celebration, we just sat and talked and later went to sleep.  
 
@@ -48,7 +48,7 @@ there were tons of other cool lightning talks asw. personally, lemong's talk abo
 ![furryfeet](/blogs/arcana/furry.png)
 ![icedtea](/blogs/arcana/icedt.JPG)
 
-### 2nd Aug
+### 2nd Au
 
 Okay, the last day of the hackathon. After waking up, I started working on the project ASAP and drew a background and some more assets. Then I rewrote the whole codebase with Claude and added the bg music that @lemong created. I then went out on a short boba date with Daamin :P
 
