@@ -31,7 +31,7 @@ export default function Home() {
       });
     }
 
-    return () => {};
+    return () => { };
   }, []);
 
   return (
@@ -51,17 +51,17 @@ export default function Home() {
 function NameSection() {
   return (
     <section className="nes-container is-dark is-rounded">
-      <div className="flex flex-row items-center gap-8">
+      <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-8">
         <img
           src="/images/me3.jpeg"
           alt="Avatar"
-          className="h-70 w-70 object-cover rounded-full flex-shrink-0"
+          className="h-70 w-70 object-cover rounded-full shrink-0"
         />
         <div className="flex flex-col">
           <div className="nes-text text-pink-400 text-5xl my-4">
             <span className="nameScramble">Arjav Jain</span>
           </div>
-          <div className="flex">
+          <div className="flex justify-center md:justify-start">
             <SocialIcons />
           </div>
         </div>
