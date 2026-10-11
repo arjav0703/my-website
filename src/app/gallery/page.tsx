@@ -16,6 +16,7 @@ export default function Gallery() {
     { src: "/images/coolplace.png", alt: "this cool place in my town:)"},
     { src: "/images/sg4.png", alt: "gorjus foto" },
     { src: "/images/sg5.png", alt: "mcd" },
+    { src: "/images/bnw.webp", alt: "that's me!" },
     { src: "/images/trash.webp", alt: "an abandoned street" },
     { src: "/images/light.webp", alt: "night light" },
     { src: "/images/window.webp", alt: "rays of sun"},
