@@ -7,27 +7,19 @@ interface GalleryImage {
 
 export default function Gallery() {
   const images: GalleryImage[] = [
-    { src: "/images/car.webp", alt: "closeup shot of a toy car" },
-    { src: "/images/ole.webp", alt: "close up shot of a Jewellery" },
+    { src: "/images/sg1.png", alt: "lightboard" },
+    { src: "/images/sg2.png", alt: "a can" },
+    { src: "/images/car.png", alt: "a car :)"},
+    { src: "/images/ole.webp", alt: "a piece of jewellery" },
     { src: "/images/apple.webp", alt: "close up shot of an apple" },
-    {
-      src: "/images/oldman.webp",
-      alt: "picture of a street vendor selling clothes",
-    },
-    { src: "/images/trash.webp", alt: "picture of an abandoned street" },
-    { src: "/images/boat2.webp", alt: "picure of a boat during sunset" },
-    { src: "/images/light.webp", alt: "shot of a light in darkness" },
-    {
-      src: "/images/window.webp",
-      alt: "rays of sun pouring in through a window",
-    },
-    { src: "/images/tree.webp", alt: "a blurred image a tree during rain" },
-    { src: "/images/lens.webp", alt: "macro shot of a camera lens" },
-    { src: "/images/lego.webp", alt: "cinematic image of a lego plane model" },
-    {
-      src: "/images/leaf.webp",
-      alt: "close up shot of water droplets on a green leaf",
-    },
+    { src: "/images/oldman.webp", alt: "a street vendor selling clothes" },
+    { src: "/images/coolplace.png", alt: "this cool place in my town:)"},
+    { src: "/images/sg4.png", alt: "gorjus foto" },
+    { src: "/images/sg5.png", alt: "mcd" },
+    { src: "/images/trash.webp", alt: "an abandoned street" },
+    { src: "/images/light.webp", alt: "night light" },
+    { src: "/images/window.webp", alt: "rays of sun"},
+    { src: "/images/lens.webp", alt: "macro shot of a camera lens" }
   ];
 
   return (
@@ -57,7 +49,7 @@ function GalleryHeader() {
 function ImageGrid({ images }: { images: GalleryImage[] }) {
   return (
     <section className="nes-container is-dark is-rounded">
-      <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4">
+      <div className="columns-1 sm:columns-1 md:columns-2 lg:columns-3 gap-4">
         {images.map((image, index) => (
           <div
             key={index}
